@@ -23,13 +23,13 @@
 
 //example-2:
 
-function square(x){
-    return x*2;
-}
-function higherOrderFunction(num,callback){
-    return callback(num);
-}
-// console.log(higherOrderFunction(6,square));
+// function square(x){
+//     return x*2;
+// }
+// function higherOrderFunction(num,callback){
+//     return callback(num);
+// }
+// // console.log(higherOrderFunction(6,square));
 
 function funName(param,fun){
     return fun(param);
