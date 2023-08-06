@@ -41,3 +41,19 @@ function mutifly(param){
 console.log(funName(3,mutifly));
 
 
+//currying:
+//normal way:
+// function currying(a){
+//     return function(b){
+//         return function(c){
+//             return function(d){
+//                 return a+b+c+d;
+//             }
+//         }
+//     }
+// }
+// console.log(currying(10)(20)(30)(40));
+
+//arrow function:
+const currying=(a)=>(b)=>(c)=>a+b+c;
+console.log(currying(10)(20)(30));
